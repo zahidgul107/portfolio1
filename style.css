@@ -1,0 +1,70 @@
+body::before {
+    display: block;
+    content: '';
+    height: 72px;
+}
+
+
+
+/* hero background image */
+.bgimage {
+    height: 605px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('img/Heroimg.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+
+.hero_desc {
+    font-size: 2rem;
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+
+#grad1 {
+    /* height: 200px; */
+    background-color: red;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, #bdc3c7, #2c3e50);
+    height: auto;
+}
+
+@media screen and (max-width:900px) {
+    .hero-image {
+        height: 0;
+    }
+
+    .hero-text {
+        overflow-wrap: break-word;
+        height: 400px;
+    }
+}
+
+.about-me {
+    font-size: 45px;
+    padding: 2rem 0;
+}
+
+.about {
+    font-size: 20px;
+}
+
+/* @media only screen and (min-width:795px) {
+    #map {
+        width: 700px;
+        height: 700px;
+    }
+} */

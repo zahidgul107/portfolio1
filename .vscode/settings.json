@@ -1,0 +1,8 @@
+{
+    "editor.formatOnPaste": true,
+    "git.ignoreLimitWarning": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "files.refactoring.autoSave": false,
+    "liveServer.settings.port": 5501
+}
