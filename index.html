@@ -377,16 +377,16 @@
 
                     <div class="col-lg-6 mt-5 mt-lg-0">
                         <!-- form fields -->
-                        <form>
-                            <input type="text" class="form-control form-control-lg" placeholder="Name">
-                            <input type="email" class="form-control mt-5" placeholder="Email">
-                            <input type="text" class="form-control mt-5" placeholder="Subject">
+                        <form class="contactMe">
+                            <input type="text" class="form-control form-control-lg name" placeholder="Name">
+                            <input type="email" class="form-control mt-5 email" placeholder="Email">
+                            <input type="text" class="form-control mt-5 subject" placeholder="Subject">
                             <div class="mb-3 mt-5">
-                                <textarea class="form-control" rows="5" id="comment" name="text"
-                                    placeholder="Project Details"></textarea>
+                                <textarea class="form-control message" rows="5" id="comment" name="text"
+                                    placeholder="Message"></textarea>
                             </div>
+                            <button type="submit" class="btn btn-lg btn-success mt-3">Contact Me</button>
                         </form>
-                        <button type="button" class="btn btn-lg btn-success mt-3">Contact Me</button>
 
                     </div>
 
@@ -454,6 +454,7 @@
 
     <!-- custom js -->
     <script src="script.js"></script>
+    <script src="contactMe.js"></script>
 </body>
 
 </html>
