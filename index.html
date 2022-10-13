@@ -1,460 +1,479 @@
 <!doctype html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio</title>
 
-    <!-- Bootstrap CSS File -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <!-- Bootstrap CSS File -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 
-    <!-- font awesome -->
-    <script src="https://kit.fontawesome.com/6a0044bbda.js" crossorigin="anonymous"></script>
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/6a0044bbda.js" crossorigin="anonymous"></script>
 
-    <!-- Custom CSS File -->
-    <link rel="stylesheet" href="style.css">
-</head>
+        <!-- Custom CSS File -->
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-<body>
-    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top w-100">
-        <div class="container">
-            <div class="spinner-grow text-danger" role="status">
-                <span class="visually-hidden"></span>
-            </div>
-            <a class="navbar-brand ps-3" href="#">
-                Portfolio
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                <ul class="navbar-nav ms-auto text-uppercase">
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#home">home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about">about</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#my-skills">my skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contact">contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Hero Section -->
-
-    <section class="bgimage" id="home">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
-                    <h2 class="hero_title" style="font-size:45px">Hi, it's me Zahid Gul</h2>
-                    <p class="lead">Front-end Developer</p>
-                    <hr class="my-4 w-25 m-auto border-3 opacity-50">
-                    <a href="hire.html" target="_blank" type="button" class="btn btn-outline-light btn-lg" role="button">Hire me</a>
+    <body>
+        <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark py-3 fixed-top w-100">
+            <div class="container">
+                <div class="spinner-grow text-danger" role="status">
+                    <span class="visually-hidden"></span>
+                </div>
+                <a class="navbar-brand ps-3" href="#">
+                    Portfolio
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ms-auto text-uppercase">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#home">home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">about</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#my-skills">my skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">contact</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </section>
+        </nav>
 
+        <!-- Hero Section -->
 
-
-    <div id="grad1" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%"
-        data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-        <div class="container" id="about">
-            <h4 class="about-me text-white text-center">About Me</h4>
-            <p class="about text-white text-center">
-                I’m a Front-End Developer located in Kashmir. I have a serious passion for UI effects, animations and
-                creating intuitive,
-                dynamic user experiences.Well-organised person, problem solver, independent employee with high
-                attention to detail. Interested of outdoor
-                activities, Cooking, Playing Tennis and Gardening my Home.
-                A family person and father, Interested in the
-                entire frontend spectrum and working on ambitious projects with positive people.
-            </p>
-        </div>
-
-        <hr class="container my-5" style="border: 2px solid white">
-        <!-- Services -->
-
-        <div class="container" id="services">
-            <h4 class="about-me text-center">My Recent Work</h4>
-            <p class="about text-center mb-5">Here are a few design projects I've worked on recently. Want to see more?
-                <a href="mailto:zahidgul107@gmail.com" class="text-decoration-none" style="color: #7510F7;"><b>Email
-                        me.</b></a>
-            </p>
-
-            <div class="row justify-content-around">
-
-                <div class="card text-center bg-dark text-light col-12 col-md-3 mb-5 py-4">
-                    <!-- <img src="..." class="card-img-top" alt="..."> -->
-
-                    <i class="bi bi-stack display-2 text-info"></i>
-                    <div class="card-body">
-                        <h5 class="card-title text-warning">DESIGN + DEVELOPMENT</h5>
-                        <p class="card-text">
-                            Clean,modern designs - optimized for performance, search engines, and converting users to
-                            customers.
-                        </p>
-                        <a href="#" class="btn btn-outline-success">Learn more</a>
+        <section class="bgimage" id="home">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                        <h2 class="hero_title" style="font-size:45px">Hi, it's me Zahid Gul</h2>
+                        <p class="lead">Front-end Developer</p>
+                        <hr class="my-4 w-25 m-auto border-3 opacity-50">
+                        <a href="hire.html" target="_blank" type="button" class="btn btn-outline-light btn-lg"
+                            role="button">Hire me</a>
                     </div>
-                </div>
-
-
-                <div class="card text-center text-light bg-dark col-12 col-md-3 mb-5 py-4">
-                    <!-- <img src="..." class="card-img-top" alt="..."> -->
-                    <i class="bi bi-bag-check-fill display-2 text-info"></i>
-                    <div class="card-body">
-                        <h5 class="card-title text-warning">ECOMMERCE</h5>
-                        <p class="card-text">
-                            Integration of eCommerce platforms, payment gateways, custom product templates, and more.
-                        </p>
-                        <a href="#" class="btn btn-outline-success">Learn more</a>
-                    </div>
-                </div>
-
-                <div class="card text-center text-light bg-dark col-12 col-md-3 mb-5 py-4">
-                    <!-- <img src="..." class="card-img-top" alt="..."> -->
-                    <i class="bi bi-speedometer display-2 text-info"></i>
-                    <div class="card-body">
-                        <h5 class="card-title text-warning">WEBSITE AUDITS</h5>
-                        <p class="card-text">
-                            Looking to improve your page performance,SEO, or user experience? Request a free site audit.
-                        </p>
-                        <a href="#" class="btn btn-outline-success">Learn more</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row justify-content-around">
-                <div class="card text-center bg-dark text-light col-12 col-md-3 mt-0 mt-md-5 py-4">
-                    <!-- <img src="..." class="card-img-top" alt="..."> -->
-                    <i class="bi bi-clouds-fill display-2 text-info"></i>
-                    <div class="card-body">
-                        <h5 class="card-titlen text-warning">ANALYTICS</h5>
-                        <p class="card-text">
-                            Get insights into who is browsing your site so that you can make smarter business decisions.
-                        </p>
-                        <a href="#" class="btn btn-outline-success">Learn more</a>
-                    </div>
-                </div>
-
-                <div class="card text-center bg-dark text-light col-12 col-md-3 mt-5 py-4">
-                    <!-- <img src="..." class="card-img-top" alt="..."> -->
-                    <i class="bi bi-phone-fill display-2 text-info"></i>
-                    <div class="card-body">
-                        <h5 class="card-title text-warning">MOBILE-FRIENDLY</h5>
-                        <p class="card-text">
-                            A responsive design makes your website accessible to all users, regardless of their device.
-                        </p>
-                        <a href="#" class="btn btn-outline-success">Learn more</a>
-                    </div>
-                </div>
-
-                <div class="card text-center bg-dark text-light col-12 col-md-3 mt-5 py-4">
-                    <!-- <img src="..." class="card-img-top" alt="..."> -->
-                    <i class="bi bi-pencil-square display-2 text-info"></i>
-                    <div class="card-body">
-                        <h5 class="card-title text-warning">CONTENT MANAGEMENT</h5>
-                        <p class="card-text">
-                            Custom WordPress theme and plugin development. Easily update content without knowing how to
-                            code.
-                        </p>
-                        <a href="#" class="btn btn-outline-success">Learn more</a>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
-
-        <hr class="container mt-5" style="border: 2px solid white">
-
-        <!-- Portfolio section -->
-
-        <div class="container" id="portfolio">
-            <!-- <h4 id="work">Third heading</h4> -->
-
-            <div class="row text-center justify-content-around my-5">
-
-                <div class="card col-lg-3 text-white border-white bg-secondary my-3">
-                    <img class="card-img-top mt-3" src="img/portfolioImage1.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">YouTube Clone</h5>
-                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                        <a href="#" class="btn btn-outline-light">Website link</a>
-                    </div>
-                </div>
-
-                <div class="card col-lg-3 text-white border-white bg-secondary my-3">
-                    <img class="card-img-top mt-3" src="img/portfolioImage2.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Quiz App</h5>
-                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.
-                        </p>
-                        <a href="#" class="btn btn-outline-light">Website link</a>
-                    </div>
-                </div>
-
-                <div class="card col-lg-3 text-white  border-white bg-secondary my-3">
-                    <img class="card-img-top mt-3" src="img/portfolioImage3.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Product Landing Page</h5>
-                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                        <a href="#" class="btn btn-outline-light">Website link</a>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row text-center justify-content-around">
-
-                <div class="card col-lg-3 text-white  border-white bg-secondary mb-3">
-                    <img class="card-img-top mt-3" src="img/portfolioImage4.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Portfolio</h5>
-                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.
-                        </p>
-                        <a href="#" class="btn btn-outline-light">Website link</a>
-                    </div>
-                </div>
-
-                <div class="card col-lg-3 text-white border-white bg-secondary my-3">
-                    <img class="card-img-top mt-3" src="img/portfolioImage6.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">CRUD App</h5>
-                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                        </p>
-                        <a href="#" class="btn btn-outline-light">Website link</a>
-                    </div>
-                </div>
-
-                <div class="card col-lg-3 text-white border-white bg-secondary my-3">
-                    <img class="card-img-top mt-3" src="img/portfolioImage5.jpg" alt="Card image cap">
-                    <div class="card-body">
-                        <h5 class="card-title">Twitter Clone</h5>
-                        <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
-                            industry.
-                        </p>
-                        <a href="#" class="btn btn-outline-light">Website link</a>
-                    </div>
-                </div>
-
-
-            </div>
-
-        </div>
-
-        <hr class="container mt-5" style="border: 2px solid white">
-
-        <!-- My skills section -->
-
-        <div class="container" id="my-skills">
-
-            <h4 class="about-me text-center">My Skills and Experience</h4>
-            <p class="about text-center mb-5">
-                I create successful responsive websites that are fast, easy to use, and built with best practices. The
-                main area of my
-                expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom plugins,
-                features,
-                animations, and coding interactive layouts.
-            </p>
-
-            <H4>HTML</H4>
-            <div class="progress" style="height: 25px;">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 98%;background-color: rgb(4, 186, 241);" aria-valuenow="98" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-            </div>
-
-            <H4 class="mt-3">CSS</H4>
-            <div class="progress" style="height: 25px;">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
-                    style="width: 90%;background-color:rgb(210, 108, 213);" aria-valuenow="90" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-            </div>
-
-            <H4 class="mt-3">JavaScript</H4>
-            <div class="progress" style="height: 25px;">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
-                    style="width: 75%;background-color:rgb(255, 34, 83);" aria-valuenow="75" aria-valuemin="0"
-                    aria-valuemax="100"></div>
-            </div>
-
-            <H4 class="mt-3">Bootstrap CSS Framwork</H4>
-            <div class="progress" style="height: 25px;">
-                <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar"
-                    style="width: 90%" aria-valuenow="75" aria-valuemin="90" aria-valuemax="100"></div>
-            </div>
-
-
-            <div class="row justify-content-around mt-5">
-
-                <div class="card col-lg-3 border-white text-white bg-dark mb-3" style="max-width: 18rem;">
-                    <h4 class="card-header">Frontend developer</h4>
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem</h5>
-                        <p>2019-2019</p>
-                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, quos?
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card col-lg-3 border-white text-white bg-dark mb-3" style="max-width: 18rem;">
-                    <h4 class="card-header">Frontend developer</h4>
-                    <div class="card-body">
-                        <h5 class="card-title">Lorem</h5>
-                        <p>2019-2020</p>
-                        <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus,
-                            deserunt?
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card col-lg-3 border-white text-white bg-dark mb-3" style="max-width: 18rem;">
-                    <h4 class="card-header">Frontend developer</h4>
-                    <div class="card-body">
-                        <h5 class="card-title">Dark card title</h5>
-                        <p>2020-2022</p>
-                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis, ipsa.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-
-        </div>
-
-        <hr class="container mt-5" style="border: 2px solid white">
-
-        <!-- contact section-->
-
-        <section id="contact">
-            <div class="container pb-5 mt-3 contactContent">
-                <h1 class="text-center">Contact Me</h1>
-
-                <div class="row mt-4">
-                    <div class="col-md-6">
-                        <div id="map" style="overflow:hidden;max-width:100%;width:500px;height:500px;">
-                            <div id="display-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe
-                                    style="height:100%;width:100%;border:0;" frameborder="0"
-                                    src="https://www.google.com/maps/embed/v1/place?q=charari+sharief&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
-                            </div><a class="googlemap-code" rel="nofollow" href="https://www.embed-map.com"
-                                id="make-mapdata">https://www.embed-map.com</a>
-                            <style>
-                                #display-googlemap img.text-marker {
-                                    max-width: none !important;
-                                    background: none !important;
-                                }
-
-                                img {
-                                    max-width: none
-                                }
-                            </style>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-6 mt-5 mt-lg-0">
-                        <!-- form fields -->
-                        <form class="contactMe">
-                            <input type="text" class="form-control form-control-lg name" placeholder="Name">
-                            <input type="email" class="form-control mt-5 email" placeholder="Email">
-                            <input type="text" class="form-control mt-5 subject" placeholder="Subject">
-                            <div class="mb-3 mt-5">
-                                <textarea class="form-control message" rows="5" id="comment" name="text"
-                                    placeholder="Message"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-lg btn-success mt-3">Contact Me</button>
-                        </form>
-
-                    </div>
-
                 </div>
             </div>
         </section>
 
 
 
+        <div id="grad1" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-root-margin="0px 0px -40%"
+            data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+            <div class="container" id="about">
+                <h4 class="about-me text-white text-center">About Me</h4>
+                <p class="about text-white text-center">
+                    I’m a Front-End Developer located in Kashmir. I have a serious passion for UI effects, animations
+                    and
+                    creating intuitive,
+                    dynamic user experiences.Well-organised person, problem solver, independent employee with high
+                    attention to detail. Interested of outdoor
+                    activities, Cooking, Playing Tennis and Gardening my Home.
+                    A family person and father, Interested in the
+                    entire frontend spectrum and working on ambitious projects with positive people.
+                </p>
+            </div>
 
-    </div>
+            <hr class="container my-5" style="border: 2px solid white">
+            <!-- Services -->
 
-    <!-- footer section -->
+            <div class="container" id="services">
+                <h4 class="about-me text-center">My Recent Work</h4>
+                <p class="about text-center mb-5">Here are a few design projects I've worked on recently. Want to see
+                    more?
+                    <a href="mailto:zahidgul107@gmail.com" class="text-decoration-none" style="color: #7510F7;"><b>Email
+                            me.</b></a>
+                </p>
 
-    <footer class="bg-dark text-center text-white">
+                <div class="row justify-content-around">
 
-        <div class=" p-4 pb-0">
-            <!-- Section: Social media -->
-            <section class="mb-4">
-                <!-- Facebook -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/zahidgul2" role="button"><i
-                        class="fab fa-facebook-f"></i></a>
+                    <div class="card text-center bg-dark text-light col-12 col-md-3 mb-5 py-4">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
 
-                <!-- Twitter -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/Nendre_mot" role="button"><i
-                        class="fab fa-twitter"></i></a>
+                        <i class="bi bi-stack display-2 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">DESIGN + DEVELOPMENT</h5>
+                            <p class="card-text">
+                                Clean,modern designs - optimized for performance, search engines, and converting users
+                                to
+                                customers.
+                            </p>
+                            <a href="#" class="btn btn-outline-success">Learn more</a>
+                        </div>
+                    </div>
 
-                <!-- Google -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://myaccount.google.com/?hl=en_GB&utm_source=OGB&utm_medium=act" role="button"><i
-                        class="fab fa-google"></i></a>
 
-                <!-- Instagram -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://Instagram.com/zahid_gul2/" role="button"><i
-                        class="fab fa-instagram"></i></a>
+                    <div class="card text-center text-light bg-dark col-12 col-md-3 mb-5 py-4">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <i class="bi bi-bag-check-fill display-2 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">ECOMMERCE</h5>
+                            <p class="card-text">
+                                Integration of eCommerce platforms, payment gateways, custom product templates, and
+                                more.
+                            </p>
+                            <a href="#" class="btn btn-outline-success">Learn more</a>
+                        </div>
+                    </div>
 
-                <!-- Linkedin -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://www.linkedin.com/in/zahid-gul-9056671b2/" role="button"><i
-                        class="fab fa-linkedin-in"></i></a>
+                    <div class="card text-center text-light bg-dark col-12 col-md-3 mb-5 py-4">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <i class="bi bi-speedometer display-2 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">WEBSITE AUDITS</h5>
+                            <p class="card-text">
+                                Looking to improve your page performance,SEO, or user experience? Request a free site
+                                audit.
+                            </p>
+                            <a href="#" class="btn btn-outline-success">Learn more</a>
+                        </div>
+                    </div>
 
-                <!-- Github -->
-                <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/zahidgul107" role="button"><i
-                        class="fab fa-github"></i></a>
+                </div>
+
+                <div class="row justify-content-around">
+                    <div class="card text-center bg-dark text-light col-12 col-md-3 mt-0 mt-md-5 py-4">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <i class="bi bi-clouds-fill display-2 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-titlen text-warning">ANALYTICS</h5>
+                            <p class="card-text">
+                                Get insights into who is browsing your site so that you can make smarter business
+                                decisions.
+                            </p>
+                            <a href="#" class="btn btn-outline-success">Learn more</a>
+                        </div>
+                    </div>
+
+                    <div class="card text-center bg-dark text-light col-12 col-md-3 mt-5 py-4">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <i class="bi bi-phone-fill display-2 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">MOBILE-FRIENDLY</h5>
+                            <p class="card-text">
+                                A responsive design makes your website accessible to all users, regardless of their
+                                device.
+                            </p>
+                            <a href="#" class="btn btn-outline-success">Learn more</a>
+                        </div>
+                    </div>
+
+                    <div class="card text-center bg-dark text-light col-12 col-md-3 mt-5 py-4">
+                        <!-- <img src="..." class="card-img-top" alt="..."> -->
+                        <i class="bi bi-pencil-square display-2 text-info"></i>
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">CONTENT MANAGEMENT</h5>
+                            <p class="card-text">
+                                Custom WordPress theme and plugin development. Easily update content without knowing how
+                                to
+                                code.
+                            </p>
+                            <a href="#" class="btn btn-outline-success">Learn more</a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <hr class="container mt-5" style="border: 2px solid white">
+
+            <!-- Portfolio section -->
+
+            <div class="container" id="portfolio">
+                <!-- <h4 id="work">Third heading</h4> -->
+
+                <div class="row text-center justify-content-around my-5">
+
+                    <div class="card col-lg-3 text-white border-white bg-secondary my-3">
+                        <img class="card-img-top mt-3" src="img/portfolioImage1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">YouTube Clone</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                            <a href="#" class="btn btn-outline-light">Website link</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-lg-3 text-white border-white bg-secondary my-3">
+                        <img class="card-img-top mt-3" src="img/portfolioImage2.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Quiz App</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                            <a href="#" class="btn btn-outline-light">Website link</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-lg-3 text-white  border-white bg-secondary my-3">
+                        <img class="card-img-top mt-3" src="img/portfolioImage3.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Product Landing Page</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                            <a href="#" class="btn btn-outline-light">Website link</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row text-center justify-content-around">
+
+                    <div class="card col-lg-3 text-white  border-white bg-secondary mb-3">
+                        <img class="card-img-top mt-3" src="img/portfolioImage4.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Portfolio</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                            <a href="#" class="btn btn-outline-light">Website link</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-lg-3 text-white border-white bg-secondary my-3">
+                        <img class="card-img-top mt-3" src="img/portfolioImage6.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">CRUD App</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                            <a href="#" class="btn btn-outline-light">Website link</a>
+                        </div>
+                    </div>
+
+                    <div class="card col-lg-3 text-white border-white bg-secondary my-3">
+                        <img class="card-img-top mt-3" src="img/portfolioImage5.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Twitter Clone</h5>
+                            <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting
+                                industry.
+                            </p>
+                            <a href="#" class="btn btn-outline-light">Website link</a>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <hr class="container mt-5" style="border: 2px solid white">
+
+            <!-- My skills section -->
+
+            <div class="container" id="my-skills">
+
+                <h4 class="about-me text-center">My Skills and Experience</h4>
+                <p class="about text-center mb-5">
+                    I create successful responsive websites that are fast, easy to use, and built with best practices.
+                    The
+                    main area of my
+                    expertise is front-end development, HTML, CSS, JS, building small and medium web apps, custom
+                    plugins,
+                    features,
+                    animations, and coding interactive layouts.
+                </p>
+
+                <H4>HTML</H4>
+                <div class="progress" style="height: 25px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 98%;background-color: rgb(4, 186, 241);" aria-valuenow="98" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                </div>
+
+                <H4 class="mt-3">CSS</H4>
+                <div class="progress" style="height: 25px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar"
+                        style="width: 90%;background-color:rgb(210, 108, 213);" aria-valuenow="90" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                </div>
+
+                <H4 class="mt-3">JavaScript</H4>
+                <div class="progress" style="height: 25px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-info" role="progressbar"
+                        style="width: 75%;background-color:rgb(255, 34, 83);" aria-valuenow="75" aria-valuemin="0"
+                        aria-valuemax="100"></div>
+                </div>
+
+                <H4 class="mt-3">Bootstrap CSS Framwork</H4>
+                <div class="progress" style="height: 25px;">
+                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-secondary" role="progressbar"
+                        style="width: 90%" aria-valuenow="75" aria-valuemin="90" aria-valuemax="100"></div>
+                </div>
+
+
+                <div class="row justify-content-around mt-5">
+
+                    <div class="card col-lg-3 border-white text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <h4 class="card-header">Frontend developer</h4>
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem</h5>
+                            <p>2019-2019</p>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+                                quos?
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card col-lg-3 border-white text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <h4 class="card-header">Frontend developer</h4>
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem</h5>
+                            <p>2019-2020</p>
+                            <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus,
+                                deserunt?
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="card col-lg-3 border-white text-white bg-dark mb-3" style="max-width: 18rem;">
+                        <h4 class="card-header">Frontend developer</h4>
+                        <div class="card-body">
+                            <h5 class="card-title">Dark card title</h5>
+                            <p>2020-2022</p>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis,
+                                ipsa.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+            <hr class="container mt-5" style="border: 2px solid white">
+
+            <!-- contact section-->
+
+            <section id="contact">
+                <div class="container pb-5 mt-3 contactContent">
+                    <h1 class="text-center">Contact Me</h1>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6">
+                            <div id="map" style="overflow:hidden;max-width:100%;width:500px;height:500px;">
+                                <div id="display-googlemap" style="height:100%; width:100%;max-width:100%;"><iframe
+                                        style="height:100%;width:100%;border:0;" frameborder="0"
+                                        src="https://www.google.com/maps/embed/v1/place?q=charari+sharief&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe>
+                                </div><a class="googlemap-code" rel="nofollow" href="https://www.embed-map.com"
+                                    id="make-mapdata">https://www.embed-map.com</a>
+                                <style>
+                                    #display-googlemap img.text-marker {
+                                        max-width: none !important;
+                                        background: none !important;
+                                    }
+
+                                    img {
+                                        max-width: none
+                                    }
+                                </style>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 mt-5 mt-lg-0">
+                            <!-- form fields -->
+                            <form class="contactMe">
+                                <input type="text" class="form-control form-control-lg name" placeholder="Name">
+                                <input type="email" class="form-control mt-5 email" placeholder="Email">
+                                <input type="text" class="form-control mt-5 subject" placeholder="Subject">
+                                <div class="mb-3 mt-5">
+                                    <textarea class="form-control message" rows="5" id="comment" name="text"
+                                        placeholder="Message"></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-lg btn-success mt-3">Contact Me</button>
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
             </section>
-            <!-- Section: Social media -->
+
+
+
+
         </div>
-        <!-- Grid container -->
 
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-            © 2022 Copyright
-            <a class="text-white text-decoration-none" href="#">Zahid Gul</a>
-        </div>
-        <!-- Copyright -->
-    </footer>
+        <!-- footer section -->
+
+        <footer class="bg-dark text-center text-white">
+
+            <div class=" p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/zahidgul2"
+                        role="button"><i class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://twitter.com/Nendre_mot"
+                        role="button"><i class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a class="btn btn-outline-light btn-floating m-1"
+                        href="https://myaccount.google.com/?hl=en_GB&utm_source=OGB&utm_medium=act" role="button"><i
+                            class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://Instagram.com/zahid_gul2/"
+                        role="button"><i class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a class="btn btn-outline-light btn-floating m-1"
+                        href="https://www.linkedin.com/in/zahid-gul-9056671b2/" role="button"><i
+                            class="fab fa-linkedin-in"></i></a>
+
+                    <!-- Github -->
+                    <a class="btn btn-outline-light btn-floating m-1" href="https://github.com/zahidgul107"
+                        role="button"><i class="fab fa-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+                © 2022 Copyright
+                <a class="text-white text-decoration-none" href="#">Zahid Gul</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
 
 
 
 
 
 
-    <!-- JS Bootstrap File -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
-        crossorigin="anonymous"></script>
+        <!-- JS Bootstrap File -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+            crossorigin="anonymous"></script>
 
-    <!-- custom js -->
-    <script src="script.js"></script>
-    <script src="contactMe.js"></script>
-</body>
+        <!-- custom js -->
+        <script src="script.js"></script>
+        <script src="contactMe.js"></script>
+    </body>
 
 </html>
